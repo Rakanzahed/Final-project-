@@ -1,11 +1,3 @@
-<?php
-  echo "<script>console.log('test');</script>";
-  //  if(isset($_GET['id']){
-  //    $id = $_GET['id'];
-  //    //echo $id;
-  // //   echo "<script>console.log($id);</script>";
-  //  }
-?>
 <!DOCTYPE html>
 <html>
 <?php
@@ -25,7 +17,6 @@
     <link href="carousel.css" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
 	<script src="js/modernizr.custom.js"></script>
-
 </head>
 <body>
 <div class="container">
@@ -82,7 +73,7 @@
 <div class="row center">       
 	<div class="col-xs-12 col-md-12 col-lg-12">
 		<h2>ROSTERS</h2>
-		<p>Check out the players who won a championship for Real Madrid and what year they won.</p>
+		<p>Check out the players who won a championship and what year they won.</p>
     <img src="img/dots.jpg">
 	</div>
 </div>
@@ -98,61 +89,7 @@
     </div>
   </div>
 <!-- Row of Players -->
-<div class="row row-rosters">
-<!--   <div class="col-xs-6 col-md-3 thumbnail">
-      <img src="img/grey_box.jpg">
-      <h3>Player Name (#)</h3>
-          <p>Positon:</p>
-          <p>Country:</p>
-  </div>
-    <div class="col-xs-6 col-md-3 thumbnail">
-      <img src="img/grey_box.jpg">
-      <h3>Player Name (#)</h3>
-          <p>Positon:</p>
-          <p>Country:</p>
-  </div>
-    <div class="col-xs-6 col-md-3 thumbnail">
-      <img src="img/grey_box.jpg">
-      <h3>Player Name (#)</h3>
-          <p>Positon:</p>
-          <p>Country:</p>
-  </div>
-    <div class="col-xs-6 col-md-3 thumbnail">
-      <img src="img/grey_box.jpg">
-      <h3>Player Name (#)</h3>
-          <p>Positon:</p>
-          <p>Country:</p>
-    </a>
-  </div> -->
-</div>
-<!-- Row of Players -->
-<!-- <div class="row">
-  <div class="col-xs-6 col-md-3 thumbnail">
-      <img src="img/grey_box.jpg">
-      <h3>Player Name (#)</h3>
-          <p>Positon:</p>
-          <p>Country:</p>
-  </div>
-    <div class="col-xs-6 col-md-3 thumbnail">
-      <img src="img/grey_box.jpg">
-      <h3>Player Name (#)</h3>
-          <p>Positon:</p>
-          <p>Country:</p>
-  </div>
-    <div class="col-xs-6 col-md-3 thumbnail">
-      <img src="img/grey_box.jpg">
-      <h3>Player Name (#)</h3>
-          <p>Positon:</p>
-          <p>Country:</p>
-  </div>
-    <div class="col-xs-6 col-md-3 thumbnail">
-      <img src="img/grey_box.jpg">
-      <h3>Player Name (#)</h3>
-          <p>Positon:</p>
-          <p>Country:</p>
-    </a>
-  </div>
-</div> -->
+<div class="row row-rosters"></div>
 
 </div> <!-- Close team roster section -->
 
@@ -163,13 +100,10 @@
 <div class="row center">       
   <div class="col-xs-12 col-md-12 col-lg-12">
     <h2>STRATEGY</h2>
-    <p>View Real Madrid’s most frequently used formation.</p>
+    <p>View the champion’s most frequently used formation.</p>
   </div>
 </div>
 <div class="row strategy"> 
-   <div class="col-xs-12 col-md-12 col-lg-12">
-    <img src="img/soccer_field.jpg">
-  </div>
 </div>
     
 <!-- /////////////////////    
@@ -247,6 +181,29 @@
 .number{
   margin-top: 220px;
 }
+.hidden{
+  visibility: hidden;
+}
+.rel{
+  position: relative;
+}
+.abs{
+  position: absolute;
+}
+.field{
+  background-image: url("svg/soccer_field.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.goal{
+  width: 80px;
+  left: 5%;
+  top: 42%;
+}
+.player{
+  width: 80px;
+}
 </style>
 <script type="text/template" id="row-of-players">
   <div class="col-xs-6 col-md-3 thumbnail">
@@ -272,6 +229,25 @@
 
 </script>
 
+<script type="text/template" id="players">
+  <div class="col-xs-12 col-md-12 col-lg-12 field">
+    <img class="hidden" src="svg/soccer_field.svg">
+    <img class="abs goal" src="svg/{{jersey}}">
+    <img class="abs player" src="svg/{{jersey}}" style="left: 20%; top: 10%;">
+    <img class="abs player" src="svg/{{jersey}}" style="left: 20%; top: 31%;">
+    <img class="abs player" src="svg/{{jersey}}" style="left: 20%; top: 53%;">
+    <img class="abs player" src="svg/{{jersey}}" style="left: 20%; top: 75%;">
+
+    <img class="abs player" src="svg/{{jersey}}" style="left: 40%; top: 10%;">
+    <img class="abs player" src="svg/{{jersey}}" style="left: 40%; top: 31%;">
+    <img class="abs player" src="svg/{{jersey}}" style="left: 40%; top: 53%;">
+    <img class="abs player" src="svg/{{jersey}}" style="left: 40%; top: 75%;">
+
+    <img class="abs player" src="svg/{{jersey}}" style="left: 60%; top: 31%;">
+    <img class="abs player" src="svg/{{jersey}}" style="left: 60%; top: 53%;">
+  </div>
+</script>
+
 
   <script type="text/javascript">
     var mustacheTemplate = function(template,data){
@@ -290,6 +266,7 @@ function getData(url,id){
     console.log(data);
     var banner = "";
     var rows = "";
+    var players = "";
     for(var i in data[id].rosters){
       rows +=  mustacheTemplate(
         $("#row-of-players").html(),data[id].rosters[i]
@@ -299,8 +276,13 @@ function getData(url,id){
       $("#banner").html(),data[id]
     );
 
+    players +=  mustacheTemplate(
+      $("#players").html(),data[id]
+    );
+
     $(".row-rosters").html(rows);
     $(".banner").html(banner);
+    $(".strategy").html(players);
   });
 }
 
