@@ -1,0 +1,590 @@
+[
+	{
+		"id":0,
+		"team":"Real Madrid",
+		"banner_head":"10 CHAMPIONSHIPS",
+		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
+		"banner_image":"real_madrid_banner.png",
+		"rosters":[
+			{
+				"number":1,
+				"name":"Iker Casillas",
+				"position":"GK",
+				"country":"Spain",
+				"image":"rm01.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":15,
+				"name":"Dani Carvajal",
+				"position":"RB",
+				"country":"Spain",
+				"image":"rm02.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":4,
+				"name":"Sergio Ramos",
+				"position":"CB",
+				"country":"Spain",
+				"image":"rm03.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":2,
+				"name":"Raphaël Varane",
+				"position":"CB",
+				"country":"France",
+				"image":"rm04.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+
+			},
+			{
+				"number":5,
+				"name":"Fábio Coentrão",
+				"position":"LB",
+				"country":"Portugal",
+				"image":"rm05.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			},
+			{
+				"number":19,
+				"name":"Luka Modrić",
+				"position":"RM",
+				"country":"Croatia",
+				"image":"rm06.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/46px-Flag_of_Croatia.svg.png"
+			},
+			{
+				"number":6,
+				"name":"Sami Khedira",
+				"position":"CM",
+				"country":"Germany",
+				"image":"rm07.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png"
+			},
+			{
+				"number":2,
+				"name":"Ángel Di María",
+				"position":"LM",
+				"country":"Argentina",
+				"image":"rm08.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/46px-Flag_of_Argentina.svg.png"
+			},
+			{
+				"number":11,
+				"name":"Gareth Bale",
+				"position":"RF",
+				"country":"Wales",
+				"image":"rm09.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/46px-Flag_of_Wales_2.svg.png"
+			},
+			{
+				"number":9,
+				"name":"Karim Benzema",
+				"position":"CF",
+				"country":"France",
+				"image":"rm10.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+			},
+			{
+				"number":7,
+				"name":"Cristiano Ronaldo",
+				"position":"LF",
+				"country":"Portugal",
+				"image":"rm11.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			}
+		]
+	},
+	{
+		"id":1,
+		"team":"Barcelona",
+		"banner_head":"10 CHAMPIONSHIPS",
+		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
+		"banner_image":"real_madrid_banner.png",
+		"rosters":[
+			{
+				"number":1,
+				"name":"Marc-André ter Stegen",
+				"position":"GK",
+				"country":"Germany",
+				"image":"fcb01.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":22,
+				"name":"Dani Alves",
+				"position":"RB",
+				"country":"Brazil",
+				"image":"fcb02.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":3,
+				"name":"Gerard Piqué",
+				"position":"CB",
+				"country":"Spain",
+				"image":"fcb03.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":14,
+				"name":"Javier Mascherano",
+				"position":"CB",
+				"country":"Argentina",
+				"image":"fcb04.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+
+			},
+			{
+				"number":18,
+				"name":"Jordi Alba",
+				"position":"LB",
+				"country":"Portugal",
+				"image":"fcb05.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			},
+			{
+				"number":4,
+				"name":"Ivan Rakitić",
+				"position":"RM",
+				"country":"Croatia",
+				"image":"fcb06.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/46px-Flag_of_Croatia.svg.png"
+			},
+			{
+				"number":5,
+				"name":"Sergio Busquets",
+				"position":"CM",
+				"country":"Spain",
+				"image":"fcb07.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png"
+			},
+			{
+				"number":8,
+				"name":"Andrés Iniesta",
+				"position":"LM",
+				"country":"Spain",
+				"image":"fcb08.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/46px-Flag_of_Argentina.svg.png"
+			},
+			{
+				"number":10,
+				"name":"Lionel Messi",
+				"position":"RF",
+				"country":"Argentina",
+				"image":"fcb09.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/46px-Flag_of_Wales_2.svg.png"
+			},
+			{
+				"number":9,
+				"name":"Luis Suárez",
+				"position":"CM",
+				"country":"Uruguay",
+				"image":"fcb10.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+			},
+			{
+				"number":11,
+				"name":"Neymar",
+				"position":"LF",
+				"country":"Brazil",
+				"image":"fcb11.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			}
+		]
+	},
+	{
+		"id":2,
+		"team":"Bayern Munich",
+		"banner_head":"10 CHAMPIONSHIPS",
+		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
+		"banner_image":"real_madrid_banner.png",
+		"rosters":[
+			{
+				"number":1,
+				"name":"Manuel Neuer",
+				"position":"GK",
+				"country":"Germany",
+				"image":"bm01.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":21,
+				"name":"Philipp Lahm",
+				"position":"RB",
+				"country":"Germany",
+				"image":"bm02.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":17,
+				"name":"Jérôme Boateng",
+				"position":"CB",
+				"country":"Germany",
+				"image":"bm03.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":4,
+				"name":"Dante",
+				"position":"CB",
+				"country":"Brazil",
+				"image":"bm04.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+
+			},
+			{
+				"number":27,
+				"name":"David Alaba",
+				"position":"LB",
+				"country":"Austria",
+				"image":"bm05.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			},
+			{
+				"number":8,
+				"name":"Javi Martínez",
+				"position":"CM",
+				"country":"Spain",
+				"image":"bm06.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/46px-Flag_of_Croatia.svg.png"
+			},
+			{
+				"number":31,
+				"name":"Bastian Schweinsteiger",
+				"position":"CM",
+				"country":"Germany",
+				"image":"bm07.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png"
+			},
+			{
+				"number":10,
+				"name":"Arjen Robben",
+				"position":"RM",
+				"country":"Holland",
+				"image":"bm08.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/46px-Flag_of_Argentina.svg.png"
+			},
+			{
+				"number":25,
+				"name":"Thomas Müller",
+				"position":"AM",
+				"country":"Germany",
+				"image":"bm09.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/46px-Flag_of_Wales_2.svg.png"
+			},
+			{
+				"number":7,
+				"name":"Franck Ribéry",
+				"position":"LW",
+				"country":"France",
+				"image":"bm10.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+			},
+			{
+				"number":9,
+				"name":"Mario Mandžukić",
+				"position":"CF",
+				"country":"Croatia",
+				"image":"bm11.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			}
+		]
+	},
+	{
+		"id":3,
+		"team":"Liverpool",
+		"banner_head":"10 CHAMPIONSHIPS",
+		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
+		"banner_image":"real_madrid_banner.png",
+		"rosters":[
+			{
+				"number":1,
+				"name":"Jerzy Dudek",
+				"position":"GK",
+				"country":"Poland",
+				"image":"lp01.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":3,
+				"name":"Steve Finnan",
+				"position":"RB",
+				"country":"Ireland",
+				"image":"lp02.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":23,
+				"name":"Jamie Carragher",
+				"position":"CB",
+				"country":"England",
+				"image":"lp03.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":4,
+				"name":"Sami Hyypiä",
+				"position":"CB",
+				"country":"Finland",
+				"image":"lp04.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+
+			},
+			{
+				"number":21,
+				"name":"Djimi Traoré",
+				"position":"LB",
+				"country":"Mali",
+				"image":"lp05.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			},
+			{
+				"number":14,
+				"name":"Xabi Alonso",
+				"position":"DM",
+				"country":"Spain",
+				"image":"lp06.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/46px-Flag_of_Croatia.svg.png"
+			},
+			{
+				"number":10,
+				"name":"Luis García",
+				"position":"RM",
+				"country":"Spain",
+				"image":"lp07.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png"
+			},
+			{
+				"number":8,
+				"name":"Steven Gerrard",
+				"position":"CM",
+				"country":"England",
+				"image":"lp08.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/46px-Flag_of_Argentina.svg.png"
+			},
+			{
+				"number":6,
+				"name":"John Arne Riise",
+				"position":"LM",
+				"country":"Norway",
+				"image":"lp09.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/46px-Flag_of_Wales_2.svg.png"
+			},
+			{
+				"number":7,
+				"name":"Harry Kewell",
+				"position":"SS",
+				"country":"Australia",
+				"image":"lp10.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+			},
+			{
+				"number":5,
+				"name":"Milan Baroš",
+				"position":"CF",
+				"country":"Czech",
+				"image":"lp11.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			}
+		]
+	},
+	{
+		"id":4,
+		"team":"Inter",
+		"banner_head":"10 CHAMPIONSHIPS",
+		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
+		"banner_image":"real_madrid_banner.png",
+		"rosters":[
+			{
+				"number":12,
+				"name":"Júlio César",
+				"position":"GK",
+				"country":"Brazil",
+				"image":"i01.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":13,
+				"name":"Maicon",
+				"position":"RB",
+				"country":"Brazil",
+				"image":"i02.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":6,
+				"name":"Lúcio",
+				"position":"CB",
+				"country":"Brazil",
+				"image":"i03.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":25,
+				"name":"Walter Samuel",
+				"position":"CB",
+				"country":"Argentina",
+				"image":"i04.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+
+			},
+			{
+				"number":26,
+				"name":"Cristian Chivu",
+				"position":"LB",
+				"country":"Romania",
+				"image":"i05.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			},
+			{
+				"number":4,
+				"name":"Javier Zanetti",
+				"position":"CM",
+				"country":"Argentina",
+				"image":"i06.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/46px-Flag_of_Croatia.svg.png"
+			},
+			{
+				"number":19,
+				"name":"Esteban Cambiasso",
+				"position":"CM",
+				"country":"Argentina",
+				"image":"i07.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png"
+			},
+			{
+				"number":10,
+				"name":"Wesley Sneijder",
+				"position":"AM",
+				"country":"Holland",
+				"image":"i08.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/46px-Flag_of_Argentina.svg.png"
+			},
+			{
+				"number":9,
+				"name":"Samuel Eto'o",
+				"position":"RF",
+				"country":"Cameroon",
+				"image":"i09.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/46px-Flag_of_Wales_2.svg.png"
+			},
+			{
+				"number":22,
+				"name":"Diego Milito",
+				"position":"CF",
+				"country":"Argentina",
+				"image":"i10.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+			},
+			{
+				"number":27,
+				"name":"Goran Pandev",
+				"position":"LF",
+				"country":"Macedonia",
+				"image":"i11.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			}
+		]
+	},
+	{
+		"id":5,
+		"team":"Milan",
+		"banner_head":"10 CHAMPIONSHIPS",
+		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
+		"banner_image":"real_madrid_banner.png",
+		"rosters":[
+			{
+				"number":1,
+				"name":"Dida",
+				"position":"GK",
+				"country":"Brazil",
+				"image":"acm01.png",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":44,
+				"name":"Massimo Oddo",
+				"position":"RB",
+				"country":"Italy",
+				"image":"acm02.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":13,
+				"name":"Alessandro Nesta",
+				"position":"CB",
+				"country":"Italy",
+				"image":"acm03.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png"
+			},
+			{
+				"number":3,
+				"name":"Paolo Maldini",
+				"position":"CB",
+				"country":"Italy",
+				"image":"acm04.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+
+			},
+			{
+				"number":18,
+				"name":"Marek Jankulovski",
+				"position":"LB",
+				"country":"Czech",
+				"image":"acm05.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			},
+			{
+				"number":84,
+				"name":"Gennaro Gattuso",
+				"position":"RM",
+				"country":"Italy",
+				"image":"acm06.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/46px-Flag_of_Croatia.svg.png"
+			},
+			{
+				"number":21,
+				"name":"Andrea Pirlo",
+				"position":"CM",
+				"country":"Italy",
+				"image":"acm07.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png"
+			},
+			{
+				"number":23,
+				"name":"Massimo Ambrosini",
+				"position":"AM",
+				"country":"Italy",
+				"image":"acm08.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/46px-Flag_of_Argentina.svg.png"
+			},
+			{
+				"number":10,
+				"name":"Clarence Seedorf",
+				"position":"LM",
+				"country":"Holland",
+				"image":"acm09.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Wales_2.svg/46px-Flag_of_Wales_2.svg.png"
+			},
+			{
+				"number":22,
+				"name":"Kaká",
+				"position":"SS",
+				"country":"Brazil",
+				"image":"acm10.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png"
+			},
+			{
+				"number":9,
+				"name":"Filippo Inzaghi",
+				"position":"CF",
+				"country":"Italy",
+				"image":"acm11.jpg",
+				"country_image":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/45px-Flag_of_Portugal.svg.png"
+			}
+		]
+	}
+]
