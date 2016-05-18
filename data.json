@@ -3,8 +3,9 @@
 		"id":0,
 		"team":"Real Madrid",
 		"banner_head":"10 CHAMPIONSHIPS",
-		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
+		"banner_content":"Based in Spain, Real Madrid has won the most UEFA championships in the leagueâ€™s history. The first championship they won was in 1956. Their most recent title was in 2014.",
 		"banner_image":"real_madrid_banner.png",
+		"jersey":"rm_jersey.svg",
 		"rosters":[
 			{
 				"number":1,
@@ -100,9 +101,10 @@
 	{
 		"id":1,
 		"team":"Barcelona",
-		"banner_head":"10 CHAMPIONSHIPS",
-		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
-		"banner_image":"real_madrid_banner.png",
+		"banner_head":"5 CHAMPIONSHIPS",
+		"banner_content":"FC Barcelona, one of Spain's most prestigious soccer clubs, has won 5 Champions League titles. Their most recent title came in 2015 when they beat Juventus 3-1.",
+		"banner_image":"barcelona_banner.png",
+		"jersey":"fcb_jersey.svg",
 		"rosters":[
 			{
 				"number":1,
@@ -198,9 +200,10 @@
 	{
 		"id":2,
 		"team":"Bayern Munich",
-		"banner_head":"10 CHAMPIONSHIPS",
-		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
-		"banner_image":"real_madrid_banner.png",
+		"banner_head":"5 CHAMPIONSHIPS",
+		"banner_content":"Bayern Munich is one of the best soccer clubs in German history. Their last Champions league title came in 2013 when they beat Borussia Dortmund 201",
+		"banner_image":"bayern_banner.png",
+		"jersey":"bm_jersey.svg",
 		"rosters":[
 			{
 				"number":1,
@@ -296,9 +299,10 @@
 	{
 		"id":3,
 		"team":"Liverpool",
-		"banner_head":"10 CHAMPIONSHIPS",
-		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
-		"banner_image":"real_madrid_banner.png",
+		"banner_head":"4 CHAMPIONSHIPS",
+		"banner_content":"Representing England, Liverpool's most recent championship came in 2005 when they beat Milan 3-3 in penalty kicks.",
+		"banner_image":"liverpool_banner.png",
+		"jersey":"lp_jersey.svg",
 		"rosters":[
 			{
 				"number":1,
@@ -394,9 +398,10 @@
 	{
 		"id":4,
 		"team":"Inter",
-		"banner_head":"10 CHAMPIONSHIPS",
-		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
-		"banner_image":"real_madrid_banner.png",
+		"banner_head":"3 CHAMPIONSHIPS",
+		"banner_content":"Based in Italy, Inter has won 3 champions league titles, their most recent title was 2010 when they beat Bayern Munich 2-0. They won back to back Champions League titles in 1964 and 1965.",
+		"banner_image":"inter_banner.png",
+		"jersey":"i_jersey.svg",
 		"rosters":[
 			{
 				"number":12,
@@ -492,9 +497,10 @@
 	{
 		"id":5,
 		"team":"Milan",
-		"banner_head":"10 CHAMPIONSHIPS",
-		"banner_content":"Real Madrid has won the most UEFA championships in the league’s history. The first championship they won was in 1956.",
-		"banner_image":"real_madrid_banner.png",
+		"banner_head":"7 CHAMPIONSHIPS",
+		"banner_content":"Based in Italy, AC Milan has won 7 Champions League titles. Their most recent title was won in 2007 when they beat Liverpool 2-1.",
+		"banner_image":"milan_banner.png",
+		"jersey":"acm_jersey.svg",
 		"rosters":[
 			{
 				"number":1,
