@@ -39,8 +39,7 @@
     <!-- Dropdown menu -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">2016 Results</a></li>
-        <li class="dropdown">
+        <li><a href="about.html">About</a></li>        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Legendary Teams<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="team.php?id=0">Real Madrid</a></li>
